@@ -1,0 +1,24 @@
+2015-May-17 11:54:41.115 [main] DEBUG DbHelper.java:50 - Loading properties
+2015-May-17 11:54:41.118 [main] DEBUG DbHelper.java:61 - Creating the data source
+2015-May-17 11:54:41.135 [main] DEBUG DbHelper.java:68 - Executing Flyway (database migration)
+2015-May-17 11:54:42.278 [AWT-EventQueue-0] DEBUG Main.java:19 - Starting application
+2015-May-17 11:54:42.374 [SwingWorker-pool-1-thread-1] DEBUG ContactsHelper.java:23 - Loading contacts
+2015-May-17 11:54:42.377 [SwingWorker-pool-1-thread-1] DEBUG ContactsHelper.java:40 - Loaded 3 contacts
+2015-May-17 11:55:18.390 [AWT-EventQueue-0] DEBUG Contact.java:63 - Adding new contact: [No Id] aunog
+2015-May-17 11:55:18.394 [SwingWorker-pool-1-thread-2] DEBUG ContactsHelper.java:23 - Loading contacts
+2015-May-17 11:55:18.396 [SwingWorker-pool-1-thread-2] DEBUG ContactsHelper.java:40 - Loaded 4 contacts
+2015-May-17 11:55:22.159 [Thread-2] DEBUG DbHelper.java:36 - Closing the data source
+2015-Jun-03 20:12:09.395 [main] DEBUG DbHelper.java:50 - Loading properties
+2015-Jun-03 20:12:09.395 [main] DEBUG DbHelper.java:61 - Creating the data source
+2015-Jun-03 20:12:09.457 [main] DEBUG DbHelper.java:68 - Executing Flyway (database migration)
+2015-Jun-03 20:12:10.959 [AWT-EventQueue-0] DEBUG Main.java:19 - Starting application
+2015-Jun-03 20:12:11.396 [SwingWorker-pool-1-thread-1] DEBUG ContactsHelper.java:23 - Loading contacts
+2015-Jun-03 20:12:11.396 [SwingWorker-pool-1-thread-1] DEBUG ContactsHelper.java:40 - Loaded 4 contacts
+2015-Jun-03 20:15:17.528 [Thread-2] DEBUG DbHelper.java:36 - Closing the data source
+2015-Jun-03 20:17:11.915 [main] DEBUG DbHelper.java:50 - Loading properties
+2015-Jun-03 20:17:11.915 [main] DEBUG DbHelper.java:61 - Creating the data source
+2015-Jun-03 20:17:11.931 [main] DEBUG DbHelper.java:68 - Executing Flyway (database migration)
+2015-Jun-03 20:17:12.762 [AWT-EventQueue-0] DEBUG Main.java:19 - Starting application
+2015-Jun-03 20:17:12.855 [SwingWorker-pool-1-thread-1] DEBUG ContactsHelper.java:23 - Loading contacts
+2015-Jun-03 20:17:12.855 [SwingWorker-pool-1-thread-1] DEBUG ContactsHelper.java:40 - Loaded 4 contacts
+2015-Jun-03 20:29:42.169 [Thread-2] DEBUG DbHelper.java:36 - Closing the data source

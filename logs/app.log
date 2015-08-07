@@ -1,0 +1,195 @@
+2015-May-16 01:31:12.529 [main] DEBUG Main.java:23 - Executing Flyway (database migration)
+2015-May-16 01:31:13.131 [main] DEBUG ApacheCommonsLog.java:39 - Jdbc Url: jdbc:h2:C:/Users/shadowman/WorkSpace/java-swing-mvn-dbapps/target/montu
+2015-May-16 01:31:13.131 [main] DEBUG ApacheCommonsLog.java:39 - Database: H2 1.3
+2015-May-16 01:31:13.134 [main] DEBUG ApacheCommonsLog.java:39 - DDL Transactions Supported: false
+2015-May-16 01:31:13.142 [main] DEBUG ApacheCommonsLog.java:39 - Schema: PUBLIC
+2015-May-16 01:31:13.150 [main] DEBUG ApacheCommonsLog.java:39 - Schema "PUBLIC" already exists. Skipping schema creation.
+2015-May-16 01:31:13.159 [main] DEBUG ApacheCommonsLog.java:39 - No upgrade to the Flyway 2.0 format necessary for metadata table "PUBLIC"."schema_version"
+2015-May-16 01:31:13.163 [main] DEBUG ApacheCommonsLog.java:39 - No metadata table upgrade to the Flyway 2.0.2 format necessary
+2015-May-16 01:31:13.165 [main] DEBUG ApacheCommonsLog.java:39 - No metadata table upgrade to the Flyway 2.1 format necessary
+2015-May-16 01:31:13.173 [main] DEBUG ApacheCommonsLog.java:39 - Jdbc Url: jdbc:h2:C:/Users/shadowman/WorkSpace/java-swing-mvn-dbapps/target/montu
+2015-May-16 01:31:13.174 [main] DEBUG ApacheCommonsLog.java:39 - Database: H2 1.3
+2015-May-16 01:31:13.177 [main] DEBUG ApacheCommonsLog.java:39 - Locking table "PUBLIC"."schema_version"...
+2015-May-16 01:31:13.178 [main] DEBUG ApacheCommonsLog.java:39 - Lock acquired for table "PUBLIC"."schema_version"
+2015-May-16 01:31:13.183 [main] DEBUG ApacheCommonsLog.java:39 - Spring Jdbc available: false
+2015-May-16 01:31:13.184 [main] DEBUG ApacheCommonsLog.java:39 - Scanning for classpath resources at 'db/migration' (Prefix: 'V', Suffix: '.sql')
+2015-May-16 01:31:13.185 [main] DEBUG ApacheCommonsLog.java:39 - Scanning URL: file:/C:/Users/shadowman/WorkSpace/java-swing-mvn-dbapps/target/classes/db/migration
+2015-May-16 01:31:13.187 [main] DEBUG ApacheCommonsLog.java:39 - JBoss VFS v2 available: false
+2015-May-16 01:31:13.189 [main] DEBUG ApacheCommonsLog.java:39 - Scanning starting at classpath root in filesystem: /C:/Users/shadowman/WorkSpace/java-swing-mvn-dbapps/target/classes/
+2015-May-16 01:31:13.189 [main] DEBUG ApacheCommonsLog.java:39 - Scanning for resources in path: C:\Users\shadowman\WorkSpace\java-swing-mvn-dbapps\target\classes\db\migration (db/migration)
+2015-May-16 01:31:13.193 [main] DEBUG ApacheCommonsLog.java:39 - Found resource: db/migration/V1_2__Description.sql
+2015-May-16 01:31:13.193 [main] DEBUG ApacheCommonsLog.java:39 - Found resource: db/migration/V2__update_table.sql
+2015-May-16 01:31:13.197 [main] DEBUG ApacheCommonsLog.java:39 - Scanning for classes at 'db/migration' (Implementing: 'com.googlecode.flyway.core.api.migration.jdbc.JdbcMigration')
+2015-May-16 01:31:13.197 [main] DEBUG ApacheCommonsLog.java:39 - Scanning URL: file:/C:/Users/shadowman/WorkSpace/java-swing-mvn-dbapps/target/classes/db/migration
+2015-May-16 01:31:13.197 [main] DEBUG ApacheCommonsLog.java:39 - Scanning starting at classpath root in filesystem: /C:/Users/shadowman/WorkSpace/java-swing-mvn-dbapps/target/classes/
+2015-May-16 01:31:13.198 [main] DEBUG ApacheCommonsLog.java:39 - Scanning for resources in path: C:\Users\shadowman\WorkSpace\java-swing-mvn-dbapps\target\classes\db\migration (db/migration)
+2015-May-16 01:31:13.198 [main] DEBUG ApacheCommonsLog.java:39 - Filtering out resource: db/migration/V1_2__Description.sql (filename: V1_2__Description.sql)
+2015-May-16 01:31:13.198 [main] DEBUG ApacheCommonsLog.java:39 - Filtering out resource: db/migration/V2__update_table.sql (filename: V2__update_table.sql)
+2015-May-16 01:31:13.206 [main] INFO ApacheCommonsLog.java:43 - Current version of schema "PUBLIC": 2
+2015-May-16 01:31:13.206 [main] INFO ApacheCommonsLog.java:43 - Schema "PUBLIC" is up to date. No migration necessary.
+2015-May-16 01:31:13.209 [main] DEBUG Main.java:30 - Contacts
+2015-May-16 01:31:13.210 [main] DEBUG Main.java:33 -   >> [1] Aunog Arafat (shadowman9443@gmail.com)
+2015-May-16 01:31:13.211 [main] DEBUG Main.java:33 -   >> [2] Aunog Arafat (shadowman9443@gmail.com)
+2015-May-16 01:31:13.211 [main] DEBUG Main.java:33 -   >> [3] Arafat (arafat15-1830@diu.edu.db)
+2015-May-16 01:31:13.211 [main] DEBUG Main.java:33 -   >> [4] Arafat (arafat15-1830@diu.edu.db)
+2015-May-16 01:31:13.211 [main] DEBUG Main.java:33 -   >> [5] Arafat (arafat15-1830@diu.edu.db)
+2015-May-16 01:31:13.211 [main] DEBUG Main.java:33 -   >> [6] Arafat (arafat15-1830@diu.edu.db)
+2015-May-16 01:31:13.211 [main] DEBUG Main.java:33 -   >> [7] Arafat (arafat15-1830@diu.edu.db)
+2015-May-16 02:25:32.913 [main] DEBUG DbHelper.java:48 - Creating the data source
+2015-May-16 02:25:32.925 [main] DEBUG DbHelper.java:55 - Executing Flyway (database migration)
+2015-May-16 02:25:33.648 [main] DEBUG DbHelper.java:34 - Closingthe data source
+2015-May-16 02:25:33.855 [main] INFO Main.java:22 - Done
+2015-May-16 02:28:07.044 [main] DEBUG DbHelper.java:48 - Creating the data source
+2015-May-16 02:28:07.056 [main] DEBUG DbHelper.java:55 - Executing Flyway (database migration)
+2015-May-16 02:28:07.772 [main] DEBUG DbHelper.java:34 - Closingthe data source
+2015-May-16 02:28:07.957 [main] INFO Main.java:22 - Done
+2015-May-16 22:00:38.413 [main] DEBUG DbHelper.java:49 - Creating the data source
+2015-May-16 22:00:38.428 [main] DEBUG DbHelper.java:56 - Executing Flyway (database migration)
+2015-May-16 22:00:39.166 [main] DEBUG ContactsHelper.java:26 - Loading contacts
+2015-May-16 22:00:39.166 [main] DEBUG ContactsHelper.java:43 - Loaded 2 contacts
+2015-May-16 22:00:39.166 [main] DEBUG Main.java:24 -   >> [1] Albert Attard (albert@javacreed.com)
+2015-May-16 22:00:39.166 [main] DEBUG Main.java:24 -   >> [2] Albert Attard (albert@javacreed.com)
+2015-May-16 22:00:39.166 [main] DEBUG DbHelper.java:35 - Closing the data source
+2015-May-16 22:00:39.323 [main] INFO Main.java:32 - Done
+2015-May-16 23:04:52.418 [main] DEBUG DbHelper.java:49 - Creating the data source
+2015-May-16 23:04:52.433 [main] DEBUG DbHelper.java:56 - Executing Flyway (database migration)
+2015-May-16 23:04:53.186 [main] DEBUG ContactsHelper.java:26 - Loading contacts
+2015-May-16 23:04:53.186 [main] DEBUG ContactsHelper.java:43 - Loaded 3 contacts
+2015-May-16 23:04:53.186 [main] DEBUG Main.java:24 -   >> [1] Albert Attard (albert@javacreed.com)
+2015-May-16 23:04:53.186 [main] DEBUG Main.java:24 -   >> [2] Albert Attard (albert@javacreed.com)
+2015-May-16 23:04:53.186 [main] DEBUG Main.java:24 -   >> [3] Albert Attard (albert@javacreed.com)
+2015-May-16 23:04:53.186 [main] DEBUG DbHelper.java:35 - Closing the data source
+2015-May-16 23:04:53.374 [main] INFO Main.java:32 - Done
+2015-May-16 23:07:17.533 [main] DEBUG DbHelper.java:49 - Creating the data source
+2015-May-16 23:07:17.564 [main] DEBUG DbHelper.java:56 - Executing Flyway (database migration)
+2015-May-16 23:07:18.318 [main] DEBUG ContactsHelper.java:26 - Loading contacts
+2015-May-16 23:07:18.318 [main] DEBUG ContactsHelper.java:43 - Loaded 0 contacts
+2015-May-16 23:07:18.318 [main] DEBUG ContactsHelper.java:26 - Loading contacts
+2015-May-16 23:07:18.334 [main] DEBUG ContactsHelper.java:43 - Loaded 3 contacts
+2015-May-16 23:07:18.334 [main] DEBUG DbHelper.java:35 - Closing the data source
+2015-May-17 01:01:22.919 [main] DEBUG DbHelper.java:49 - Creating the data source
+2015-May-17 01:01:22.935 [main] DEBUG DbHelper.java:56 - Executing Flyway (database migration)
+2015-May-17 01:01:23.656 [main] DEBUG Contact.java:48 - Adding new contact: [No Id] Albert Attard
+2015-May-17 01:01:23.672 [main] DEBUG ContactsHelper.java:23 - Loading contacts
+2015-May-17 01:01:23.672 [main] DEBUG ContactsHelper.java:40 - Loaded 4 contacts
+2015-May-17 01:01:23.672 [main] DEBUG Main.java:24 -   >> [1] Albert Attard (albert@javacreed.com)
+2015-May-17 01:01:23.672 [main] DEBUG Main.java:24 -   >> [2] Mary White (mary@javacreed.com)
+2015-May-17 01:01:23.672 [main] DEBUG Main.java:24 -   >> [3] Joe Borg (joe@javacreed.com)
+2015-May-17 01:01:23.672 [main] DEBUG Main.java:24 -   >> [4] Albert Attard (albert@javacreed.com)
+2015-May-17 01:01:23.672 [main] DEBUG DbHelper.java:35 - Closing the data source
+2015-May-17 01:01:23.844 [main] INFO Main.java:32 - Done
+2015-May-17 02:25:47.345 [main] DEBUG DbHelper.java:49 - Creating the data source
+2015-May-17 02:25:47.358 [main] DEBUG DbHelper.java:56 - Executing Flyway (database migration)
+2015-May-17 02:25:48.461 [AWT-EventQueue-0] DEBUG Main.java:20 - Starting application
+2015-May-17 02:26:01.510 [Thread-2] DEBUG DbHelper.java:35 - Closing the data source
+2015-May-17 10:49:38.404 [main] DEBUG DbHelper.java:50 - Loading properties
+2015-May-17 10:49:38.404 [main] DEBUG DbHelper.java:61 - Creating the data source
+2015-May-17 10:49:38.414 [main] DEBUG DbHelper.java:68 - Executing Flyway (database migration)
+2015-May-17 10:49:39.328 [AWT-EventQueue-0] DEBUG Main.java:19 - Starting application
+2015-May-17 10:49:39.429 [SwingWorker-pool-1-thread-1] DEBUG ContactsHelper.java:23 - Loading contacts
+2015-May-17 10:49:39.439 [SwingWorker-pool-1-thread-1] DEBUG ContactsHelper.java:40 - Loaded 3 contacts
+2015-May-17 10:49:43.815 [Thread-2] DEBUG DbHelper.java:36 - Closing the data source
+2015-May-17 11:39:59.934 [main] DEBUG DbHelper.java:50 - Loading properties
+2015-May-17 11:39:59.943 [main] DEBUG DbHelper.java:61 - Creating the data source
+2015-May-17 11:39:59.957 [main] DEBUG DbHelper.java:68 - Executing Flyway (database migration)
+2015-May-17 11:40:00.874 [main] DEBUG ContactsHelper.java:23 - Loading contacts
+2015-May-17 11:40:00.877 [main] DEBUG ContactsHelper.java:40 - Loaded 0 contacts
+2015-May-17 11:40:00.878 [main] DEBUG ContactsHelper.java:23 - Loading contacts
+2015-May-17 11:40:00.880 [main] DEBUG ContactsHelper.java:40 - Loaded 3 contacts
+2015-May-17 11:40:00.880 [main] DEBUG DbHelper.java:36 - Closing the data source
+2015-May-17 11:40:01.086 [main] DEBUG DbHelper.java:50 - Loading properties
+2015-May-17 11:40:01.087 [main] DEBUG DbHelper.java:61 - Creating the data source
+2015-May-17 11:40:01.087 [main] DEBUG DbHelper.java:68 - Executing Flyway (database migration)
+2015-May-17 11:40:01.579 [main] DEBUG Contact.java:63 - Adding new contact: [No Id] Albert Attard
+2015-May-17 11:40:01.583 [main] DEBUG DbHelper.java:36 - Closing the data source
+2015-May-17 11:46:45.503 [main] DEBUG DbHelper.java:50 - Loading properties
+2015-May-17 11:46:45.508 [main] DEBUG DbHelper.java:61 - Creating the data source
+2015-May-17 11:46:45.523 [main] DEBUG DbHelper.java:68 - Executing Flyway (database migration)
+2015-May-17 11:46:46.180 [main] DEBUG ContactsHelper.java:23 - Loading contacts
+2015-May-17 11:46:46.182 [main] DEBUG ContactsHelper.java:40 - Loaded 0 contacts
+2015-May-17 11:46:46.184 [main] DEBUG ContactsHelper.java:23 - Loading contacts
+2015-May-17 11:46:46.186 [main] DEBUG ContactsHelper.java:40 - Loaded 3 contacts
+2015-May-17 11:46:46.186 [main] DEBUG DbHelper.java:36 - Closing the data source
+2015-May-17 11:46:46.409 [main] DEBUG DbHelper.java:50 - Loading properties
+2015-May-17 11:46:46.410 [main] DEBUG DbHelper.java:61 - Creating the data source
+2015-May-17 11:46:46.410 [main] DEBUG DbHelper.java:68 - Executing Flyway (database migration)
+2015-May-17 11:46:46.758 [main] DEBUG Contact.java:63 - Adding new contact: [No Id] Albert Attard
+2015-May-17 11:46:46.761 [main] DEBUG DbHelper.java:36 - Closing the data source
+2015-May-17 11:47:09.566 [main] DEBUG DbHelper.java:50 - Loading properties
+2015-May-17 11:47:09.571 [main] DEBUG DbHelper.java:61 - Creating the data source
+2015-May-17 11:47:09.591 [main] DEBUG DbHelper.java:68 - Executing Flyway (database migration)
+2015-May-17 11:47:10.264 [main] DEBUG ContactsHelper.java:23 - Loading contacts
+2015-May-17 11:47:10.267 [main] DEBUG ContactsHelper.java:40 - Loaded 0 contacts
+2015-May-17 11:47:10.270 [main] DEBUG ContactsHelper.java:23 - Loading contacts
+2015-May-17 11:47:10.272 [main] DEBUG ContactsHelper.java:40 - Loaded 3 contacts
+2015-May-17 11:47:10.272 [main] DEBUG DbHelper.java:36 - Closing the data source
+2015-May-17 11:47:10.457 [main] DEBUG DbHelper.java:50 - Loading properties
+2015-May-17 11:47:10.458 [main] DEBUG DbHelper.java:61 - Creating the data source
+2015-May-17 11:47:10.459 [main] DEBUG DbHelper.java:68 - Executing Flyway (database migration)
+2015-May-17 11:47:10.792 [main] DEBUG Contact.java:63 - Adding new contact: [No Id] Albert Attard
+2015-May-17 11:47:10.796 [main] DEBUG DbHelper.java:36 - Closing the data source
+2015-May-17 11:47:20.727 [main] DEBUG DbHelper.java:50 - Loading properties
+2015-May-17 11:47:20.731 [main] DEBUG DbHelper.java:61 - Creating the data source
+2015-May-17 11:47:20.742 [main] DEBUG DbHelper.java:68 - Executing Flyway (database migration)
+2015-May-17 11:47:21.469 [main] DEBUG ContactsHelper.java:23 - Loading contacts
+2015-May-17 11:47:21.471 [main] DEBUG ContactsHelper.java:40 - Loaded 0 contacts
+2015-May-17 11:47:21.473 [main] DEBUG ContactsHelper.java:23 - Loading contacts
+2015-May-17 11:47:21.475 [main] DEBUG ContactsHelper.java:40 - Loaded 3 contacts
+2015-May-17 11:47:21.475 [main] DEBUG DbHelper.java:36 - Closing the data source
+2015-May-17 11:47:21.639 [main] DEBUG DbHelper.java:50 - Loading properties
+2015-May-17 11:47:21.640 [main] DEBUG DbHelper.java:61 - Creating the data source
+2015-May-17 11:47:21.641 [main] DEBUG DbHelper.java:68 - Executing Flyway (database migration)
+2015-May-17 11:47:22.030 [main] DEBUG Contact.java:63 - Adding new contact: [No Id] Albert Attard
+2015-May-17 11:47:22.032 [main] DEBUG DbHelper.java:36 - Closing the data source
+2015-May-17 11:47:57.203 [main] DEBUG DbHelper.java:50 - Loading properties
+2015-May-17 11:47:57.210 [main] DEBUG DbHelper.java:61 - Creating the data source
+2015-May-17 11:47:57.222 [main] DEBUG DbHelper.java:68 - Executing Flyway (database migration)
+2015-May-17 11:47:57.888 [main] DEBUG ContactsHelper.java:23 - Loading contacts
+2015-May-17 11:47:57.889 [main] DEBUG ContactsHelper.java:40 - Loaded 0 contacts
+2015-May-17 11:47:57.892 [main] DEBUG ContactsHelper.java:23 - Loading contacts
+2015-May-17 11:47:57.893 [main] DEBUG ContactsHelper.java:40 - Loaded 3 contacts
+2015-May-17 11:47:57.893 [main] DEBUG DbHelper.java:36 - Closing the data source
+2015-May-17 11:47:58.061 [main] DEBUG DbHelper.java:50 - Loading properties
+2015-May-17 11:47:58.063 [main] DEBUG DbHelper.java:61 - Creating the data source
+2015-May-17 11:47:58.064 [main] DEBUG DbHelper.java:68 - Executing Flyway (database migration)
+2015-May-17 11:47:58.443 [main] DEBUG Contact.java:63 - Adding new contact: [No Id] Albert Attard
+2015-May-17 11:47:58.446 [main] DEBUG DbHelper.java:36 - Closing the data source
+2015-May-17 11:50:49.149 [main] DEBUG DbHelper.java:50 - Loading properties
+2015-May-17 11:50:49.157 [main] DEBUG DbHelper.java:61 - Creating the data source
+2015-May-17 11:50:49.176 [main] DEBUG DbHelper.java:68 - Executing Flyway (database migration)
+2015-May-17 11:50:49.869 [main] DEBUG ContactsHelper.java:23 - Loading contacts
+2015-May-17 11:50:49.871 [main] DEBUG ContactsHelper.java:40 - Loaded 0 contacts
+2015-May-17 11:50:49.873 [main] DEBUG ContactsHelper.java:23 - Loading contacts
+2015-May-17 11:50:49.874 [main] DEBUG ContactsHelper.java:40 - Loaded 3 contacts
+2015-May-17 11:50:49.874 [main] DEBUG DbHelper.java:36 - Closing the data source
+2015-May-17 11:50:50.032 [main] DEBUG DbHelper.java:50 - Loading properties
+2015-May-17 11:50:50.033 [main] DEBUG DbHelper.java:61 - Creating the data source
+2015-May-17 11:50:50.034 [main] DEBUG DbHelper.java:68 - Executing Flyway (database migration)
+2015-May-17 11:50:50.587 [main] DEBUG Contact.java:63 - Adding new contact: [No Id] Albert Attard
+2015-May-17 11:50:50.589 [main] DEBUG DbHelper.java:36 - Closing the data source
+2015-May-17 11:52:28.341 [main] DEBUG DbHelper.java:50 - Loading properties
+2015-May-17 11:52:28.348 [main] DEBUG DbHelper.java:61 - Creating the data source
+2015-May-17 11:52:28.362 [main] DEBUG DbHelper.java:68 - Executing Flyway (database migration)
+2015-May-17 11:52:29.048 [main] DEBUG ContactsHelper.java:23 - Loading contacts
+2015-May-17 11:52:29.050 [main] DEBUG ContactsHelper.java:40 - Loaded 0 contacts
+2015-May-17 11:52:29.052 [main] DEBUG ContactsHelper.java:23 - Loading contacts
+2015-May-17 11:52:29.053 [main] DEBUG ContactsHelper.java:40 - Loaded 3 contacts
+2015-May-17 11:52:29.054 [main] DEBUG DbHelper.java:36 - Closing the data source
+2015-May-17 11:52:29.234 [main] DEBUG DbHelper.java:50 - Loading properties
+2015-May-17 11:52:29.236 [main] DEBUG DbHelper.java:61 - Creating the data source
+2015-May-17 11:52:29.236 [main] DEBUG DbHelper.java:68 - Executing Flyway (database migration)
+2015-May-17 11:52:29.573 [main] DEBUG Contact.java:63 - Adding new contact: [No Id] Albert Attard
+2015-May-17 11:52:29.576 [main] DEBUG DbHelper.java:36 - Closing the data source
+2015-Jun-03 20:16:50.818 [main] DEBUG DbHelper.java:50 - Loading properties
+2015-Jun-03 20:16:50.835 [main] DEBUG DbHelper.java:61 - Creating the data source
+2015-Jun-03 20:16:50.868 [main] DEBUG DbHelper.java:68 - Executing Flyway (database migration)
+2015-Jun-03 20:16:52.044 [main] DEBUG ContactsHelper.java:23 - Loading contacts
+2015-Jun-03 20:16:52.047 [main] DEBUG ContactsHelper.java:40 - Loaded 0 contacts
+2015-Jun-03 20:16:52.049 [main] DEBUG ContactsHelper.java:23 - Loading contacts
+2015-Jun-03 20:16:52.063 [main] DEBUG ContactsHelper.java:40 - Loaded 3 contacts
+2015-Jun-03 20:16:52.064 [main] DEBUG DbHelper.java:36 - Closing the data source
+2015-Jun-03 20:16:52.405 [main] DEBUG DbHelper.java:50 - Loading properties
+2015-Jun-03 20:16:52.406 [main] DEBUG DbHelper.java:61 - Creating the data source
+2015-Jun-03 20:16:52.406 [main] DEBUG DbHelper.java:68 - Executing Flyway (database migration)
+2015-Jun-03 20:16:52.807 [main] DEBUG Contact.java:63 - Adding new contact: [No Id] Albert Attard
+2015-Jun-03 20:16:52.811 [main] DEBUG DbHelper.java:36 - Closing the data source
